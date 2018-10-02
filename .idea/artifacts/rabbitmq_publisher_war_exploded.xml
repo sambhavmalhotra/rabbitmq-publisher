@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="rabbitmq-publisher:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/rabbitmq_publisher_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="rabbitmq-publisher/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="rabbitmq-publisher" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
